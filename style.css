@@ -1,0 +1,201 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1500px) {
+    .mainporsche  img{
+        width: 600px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mainmenu {
+        width: 60px;
+    }
+
+    
+    /* .mainmenu a{
+        font-size: 8px;
+    } */
+    .carMenu {
+        display: none;
+    }
+    .sidenavMenu span{
+        display: none;
+    }
+    .closebtn{
+        margin-right: 350px;
+    }
+}
+ .a-menu{
+
+
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    line-height: 24px;
+    margin-left: 140px;
+   
+
+}
+
+.a-menu:hover
+{
+    
+    color: red;
+} 
+
+
+
+.porsche{
+
+font-size: 60px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ vertical-align: baseline;
+ font-stretch: 100%;
+ font-weight: 400;
+ text-align: start;
+ line-height:72px ;
+
+
+}
+
+
+.porsche_p{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 24px;
+line-height: 30px;
+font-weight: 100;
+
+}
+
+.contain-hover:hover{
+
+
+    color: red;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.car-container{
+
+    height: 500px;
+    width: 35%;
+    background-size: cover;
+}
+
+.butonmaingenerate{
+    
+    font-size: 16px;
+    line-height: 24px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    display: block;
+    margin-top: 300px;
+    padding:15px;
+    width: 170px;
+    border: none;
+}
+
+.butonmaingenerate:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.butonmaingenerate2{
+    display: block;
+    background-color: transparent;
+    position: absolute; 
+    margin-top: 300px; 
+    margin-left:195px;
+    border: 1px solid white;
+    color:white;
+    padding: 15px;
+    width: 170px;
+    
+}
+.butonmaingenerate2:hover{
+
+    border: 1px solid red;
+    color :red;
+    transition: 0.3s;
+}
+
+.image {
+    position: relative;
+    flex:1; 
+}
+
+body{
+
+    overflow-x: hidden;
+}
+
+.image-cont{
+
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+
+.mainmenu{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: -3;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.7s;
+    padding: 10px;
+    overflow-y: hidden;
+    
+}
+
+.mainmenu a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+   
+    
+}
+
+.mainmenu a:hover{
+
+    color: rgb(255, 1, 1);
+    transition: 0.5s;
+}
+
+
+.sidenavMenu{
+display: flex;
+flex: 1;
+flex-direction: column;
+transition: 0.7s;
+
+}
+
+
+
+ .carMenu{
+    margin-left: 50px;
+    margin-top: 10px;
+    flex: 1;
+    flex-direction: column;
+    transition: 0.5s;
+} 
+
+
+
